@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.bupt.edu.cn/'>Beijing University of Posts and Telecommunications</a>. Beijing, China. chenzhi_zhao@bupt.edu.cn
+subtitle: <a href='https://www.bupt.edu.cn/'>Beijing University of Posts and Telecommunications</a>. chenzhi_zhao@bupt.edu.cn
 
 profile:
   align: right
