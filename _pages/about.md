@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts.
 
 profile:
   align: right
@@ -27,8 +27,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+I am currently a second-year Master's student at the School of Computer Science and Technology, Beijing University of Posts and Telecommunications (BUPT), advised by Prof. Wendong Wang. I received my B.E. degree from BUPT with First-Class Honours (Top 5%, Beijing Outstanding Graduate).
+
+My research primarily centers on Computer Vision and Deep Learning. I have a strong foundation in spatiotemporal representation learning, evidenced by my recent work on efficient dense point tracking (AAAI 2026, First Author). 
+
+Currently, I am actively seeking Ph.D. opportunities commencing in Fall 2027. My research interests are evolving towards Video Generation and Multimodal Large Models. I am eager to leverage my background in understanding temporal dynamics and foundational models to build the next generation of generative AI systems.
