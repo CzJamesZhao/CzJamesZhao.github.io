@@ -37,6 +37,14 @@ My research primarily centers on Computer Vision and Deep Learning. I have a str
 
 Currently, I am actively seeking Ph.D. opportunities commencing in Fall 2027. My research interests are evolving towards Video Generation and Multimodal Large Models. I am eager to leverage my background in understanding temporal dynamics and foundational models to build the next generation of generative AI systems.
 
+<!-- Selected papers -->
+{% if page.selected_papers %}
+  <h2>
+    <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+  </h2>
+  {% include selected_papers.liquid %}
+{% endif %}
+
 <div class="clearfix"></div>
 
 ## Internships
