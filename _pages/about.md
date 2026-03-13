@@ -37,11 +37,10 @@ My research primarily centers on Computer Vision and Deep Learning. I have a str
 
 Currently, I am actively seeking Ph.D. opportunities commencing in Fall 2027. My research interests are evolving towards Video Generation and Multimodal Large Models. I am eager to leverage my background in understanding temporal dynamics and foundational models to build the next generation of generative AI systems.
 
-## Internships
 <div class="clearfix"></div>
 
+## Internships
+
 **Shukun Technology (数坤科技)** | *Algorithm Intern* | *Mar 2024 - Jun 2024*
-- Processed multi-modal medical images (CT/MR) and developed a 3D unsupervised style transfer pipeline based on CycleGAN.
-- Fine-tuned the Uniseg model for Unsupervised Domain Adaptation (UDA), significantly improving segmentation performance.
-- Built an efficient pseudo-labeling engine using localized MRSegmentator for zero-cost data annotation.
-- Optimized and deployed models using TorchScript and graph pruning for low-latency inference on edge devices.
+
+During my internship, I worked on processing multi-modal medical images (CT/MR) and successfully bridged domain gaps by developing a 3D unsupervised style transfer pipeline utilizing CycleGAN. Additionally, I led Unsupervised Domain Adaptation (UDA) efforts by fine-tuning the Uniseg model across modalities for improved segmentation, built an efficient pre-labeling engine using a localized MRSegmentator to achieve zero-cost data annotation, and optimized edge inference using TorchScript and graph pruning for low-latency deployment on low-vRAM GPUs.
