@@ -1,0 +1,17 @@
+<div class="internships">
+  {% if site.internships != blank %}
+    {% assign internships = site.internships | reverse %}
+    {% for item in internships %}
+      <div class="internship-item" style="margin-bottom: 20px;">
+        <h5 style="margin-bottom: 5px;">
+          <strong>{{ item.title }}</strong> | <em>{{ item.role }}</em> | <span style="font-size: 0.9em; color: var(--global-text-color-light);">{{ item.date_range }}</span>
+        </h5>
+        <div class="internship-content">
+          {{ item.content }}
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No internships added yet.</p>
+  {% endif %}
+</div>

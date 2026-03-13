@@ -163,6 +163,9 @@ collections:
     output: true
   teachings:
     output: true
+  internships:
+    output: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
