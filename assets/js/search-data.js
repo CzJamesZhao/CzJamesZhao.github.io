@@ -384,16 +384,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-paper-learning-to-leap-efficient-dense-point-tracking-by-focusing-where-it-matters-has-been-accepted-to-aaai-2026",
+          title: 'Our paper “Learning to LEAP: Efficient Dense Point Tracking by Focusing Where It...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
