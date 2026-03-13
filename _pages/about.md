@@ -14,6 +14,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+internships: true # includes the internships list at the bottom
 
 announcements:
   enabled: true # includes a list of news items
@@ -36,17 +37,3 @@ I am currently a second-year Master's student at the School of Computer Science 
 My research primarily centers on Computer Vision and Deep Learning. I have a strong foundation in spatiotemporal representation learning, evidenced by my recent work on efficient dense point tracking (AAAI 2026, First Author). 
 
 Currently, I am actively seeking Ph.D. opportunities commencing in Fall 2027. My research interests are evolving towards Video Generation and Multimodal Large Models. I am eager to leverage my background in understanding temporal dynamics and foundational models to build the next generation of generative AI systems.
-
-<!-- Selected papers -->
-{% if page.selected_papers %}
-  <h2>
-    <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-  </h2>
-  {% include selected_papers.liquid %}
-{% endif %}
-
-<div class="clearfix"></div>
-
-## Internships
-
-{% include internships.liquid %}
