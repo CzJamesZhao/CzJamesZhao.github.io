@@ -21,7 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -38,10 +38,10 @@ My research primarily centers on Computer Vision and Deep Learning. I have a str
 Currently, I am actively seeking Ph.D. opportunities commencing in Fall 2027. My research interests are evolving towards Video Generation and Multimodal Large Models. I am eager to leverage my background in understanding temporal dynamics and foundational models to build the next generation of generative AI systems.
 
 ## Internships
+<div class="clearfix"></div>
 
 **Shukun Technology (数坤科技)** | *Algorithm Intern* | *Mar 2024 - Jun 2024*
-- Responsible for data processing of abdominal and brain CT and MR images, including format conversion, standardization, data augmentation, and normalization.
-- **Bridged multi-modal domain gaps:** Developed a 3D medical image unsupervised style transfer pipeline from CT to MR on Amos22 dataset based on CycleGAN, eliminating 3D stacking slice blurring and checkerboard artifacts.
-- **Led Unsupervised Domain Adaptation (UDA):** Fine-tuned the Uniseg model across modalities using nnUNet, incorporating generated Fake-MR images for adversarial data augmentation. Achieved significant Dice score improvements for small/long-tail organs.
-- **Built efficient pre-labeling engine:** Localized the MRSegmentator model to establish a pseudo-labeling pipeline for abdominal data, enabling a closed-loop data annotation with zero human cost.
-- **Broke edge inference bottlenecks:** Optimized inference pipeline and deployed the model using TorchScript and graph pruning on low-vRAM (A10) GPUs, reducing OOM risk to <1%.
+- Processed multi-modal medical images (CT/MR) and developed a 3D unsupervised style transfer pipeline based on CycleGAN.
+- Fine-tuned the Uniseg model for Unsupervised Domain Adaptation (UDA), significantly improving segmentation performance.
+- Built an efficient pseudo-labeling engine using localized MRSegmentator for zero-cost data annotation.
+- Optimized and deployed models using TorchScript and graph pruning for low-latency inference on edge devices.
